@@ -17,7 +17,7 @@ def show_tracks(results:dict):#show tracks of one of your spotify playlist
 def spotifify_identification():#!!!!! Take care of the identification process
      scope = 'playlist-read-private'
      """
-     To use this app you need to go to https://developer.spotify.com/dashboard create an app ,use http://localhost:8888/callback as the redirect url 
+     To use this script you need to go to https://developer.spotify.com/dashboard create an app ,use http://localhost:8888/callback as the redirect url 
      and copy and paste client_id and client_secret in the following source 
      """
      sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
