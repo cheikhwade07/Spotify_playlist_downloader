@@ -1,4 +1,6 @@
+
 try:
+    import pytubefix
     from pytubefix import YouTube
     from pytubefix import Search
 except:
@@ -79,5 +81,6 @@ def download_spotify_selected_playlist():
           else:
               print(f"{track['name']} not found")
                 
-              
-download_spotify_selected_playlist()
+"""
+if you want to try out call directly download_spotify_selected_playlist()
+"""              
